@@ -1,0 +1,54 @@
+﻿生成启动时间为 2021/8/11 20:36:09。
+     1>项目“D:\my_workspace\C-C++\ImageFusion_8bit\ImgFusion\ImgFusion\ImgFusion.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“x64\Release\ImgFusion.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt Fusion.cpp
+         Fusion.cpp
+     1>d:\my_workspace\c-c++\imagefusion_8bit\imgfusion\gdal\gdal200\include\cpl_string.h(237): warning C4251: “std::_String_val<_Elem,_Alloc>::_Alval”: class“std::allocator<_Ty>”需要有 dll 接口由 class“std::_String_val<_Elem,_Alloc>”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Alloc=std::allocator<char>
+                 ]
+                 and
+                 [
+                     _Ty=char
+                 ]
+                 and
+                 [
+                     _Elem=char,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\my_workspace\c-c++\imagefusion_8bit\imgfusion\imgfusion\../GDAL/gdal200/include/gdal_priv.h(584): warning C4251: “GDALColorTable::aoEntries”: class“std::vector<_Ty>”需要有 dll 接口由 class“GDALColorTable”的客户端使用
+                 with
+                 [
+                     _Ty=GDALColorEntry
+                 ]
+     1>d:\my_workspace\c-c++\imagefusion_8bit\imgfusion\imgfusion\../GDAL/gdal200/include/gdal_priv.h(978): warning C4251: “GDALDriverManager::oMapNameToDrivers”: class“std::map<_Kty,_Ty>”需要有 dll 接口由 class“GDALDriverManager”的客户端使用
+                 with
+                 [
+                     _Kty=CPLString,
+                     _Ty=GDALDriver *
+                 ]
+     1>Fusion.cpp(1309): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>Fusion.cpp(1313): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\my_workspace\C-C++\ImageFusion_8bit\ImgFusion\x64\Release\ImgFusion.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\ImgFusion.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\my_workspace\C-C++\ImageFusion_8bit\ImgFusion\x64\Release\ImgFusion.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\my_workspace\C-C++\ImageFusion_8bit\ImgFusion\x64\Release\ImgFusion.lib" /MACHINE:X64 x64\Release\Function.obj
+         x64\Release\Fusion.obj
+         x64\Release\ImgQuality.obj
+         x64\Release\Main.obj
+            正在创建库 D:\my_workspace\C-C++\ImageFusion_8bit\ImgFusion\x64\Release\ImgFusion.lib 和对象 D:\my_workspace\C-C++\ImageFusion_8bit\ImgFusion\x64\Release\ImgFusion.exp
+         正在生成代码
+         已完成代码的生成
+         ImgFusion.vcxproj -> D:\my_workspace\C-C++\ImageFusion_8bit\ImgFusion\x64\Release\ImgFusion.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\my_workspace\C-C++\ImageFusion_8bit\ImgFusion\x64\Release\ImgFusion.exe;#1" /manifest x64\Release\ImgFusion.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“x64\Release\ImgFusion.unsuccessfulbuild”。
+         正在对“x64\Release\ImgFusion.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\my_workspace\C-C++\ImageFusion_8bit\ImgFusion\ImgFusion\ImgFusion.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.81
